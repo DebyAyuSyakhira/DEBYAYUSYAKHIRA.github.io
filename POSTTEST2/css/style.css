@@ -1,0 +1,321 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #EDDFB3;
+  padding: 0;
+  margin: 0; 
+}
+/* untuk header beserta nav */
+.container{
+  width: 100%;
+  height: auto;
+  background: #76BA99;
+  margin:auto;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+.header a {
+  font-size: 30px;
+  font-weight: 800;
+  float: left;
+  font-family:'comic sans ms';
+  color: white;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  top: 0;
+  background: #76BA99;
+  border-bottom:1px solid #76BA99;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* untuk halaman beranda */
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: auto;
+}
+
+.kolom .deskripsi {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'comic sans ms';
+  color: #876445;
+}
+
+h2 {
+  font-family: 'comic sans ms';
+  font-weight: 100;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #876445;
+  width: 100%;
+  line-height: 20px;
+}
+
+/* untuk halaman produk */
+.badan
+{
+  width: 700px;
+  margin: 35px auto;
+  background-color: white;
+  padding: 20px;
+  overflow: hidden;
+}
+  
+.badan h2
+{
+  color: #876445;
+  border-bottom: 1px solid gainsboro;
+  margin: 5px;
+  margin-bottom: 13px;
+}
+  
+.list-produk
+{
+  border: 1px solid gainsboro;
+  padding: 10px;
+  float: left;
+  width: 200px;
+  margin: 5px;
+}
+  
+.list-produk:hover
+{
+  transition-duration: 700ms;
+  box-shadow: 5px 5px gainsboro;
+}
+  
+.list-produk img
+{
+  width: 100%;
+  height: 175px;
+  display: block;
+  margin-bottom: 5px;
+}
+  
+.list-produk h4, .list-produk h5
+{
+  color: #876445;
+  text-align: center;
+  margin-bottom: 5px;
+}
+  
+.tombol
+{
+  text-decoration: none;
+  border-radius: 7px;
+  padding: 7px;
+  display: block;
+  float: left;
+  width: 45%;
+  margin: 4px;
+  text-align: center;
+  color: white;
+}
+  
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 700ms;
+}
+  
+.tombol-detail
+{
+    background-color: #76BA99;
+}
+  
+.tombol-keranjang
+{
+    background-color: #876445;
+}
+
+/* .about-me img{
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+  margin-top: 30px;
+	margin-right: 15px;
+  margin-left: 15px;
+	float:inherit;
+	max-width: 200%;
+	margin-top: 2.5px;
+} */
+
+/* untuk halaman detail produk */
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+img {
+  margin-top: 50px;
+width: 50%;
+}
+
+.colomn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+
+.colomn .buah {
+  font-size: 30px;
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace;
+  color: #876445;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: 'comic sans ms';
+  font-weight: 100;
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #876445;
+  width: 100%;
+  line-height: 20px;
+  margin-top: 0px;
+}
+a.tbl-kuning {
+  background: yellowgreen;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  float: right;
+}
+
+a.tbl-kuning:hover {
+  background: yellow;
+    text-decoration: none;
+}
+
+/* untuk halaman footer */
+footer{
+  background-size: inherit;
+  background: #876445;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+
+footer .content .link-boxes{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .link-boxes .box .link-nama{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.link-boxes .box .link-nama::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #fff;
+}
+
+.content .link-boxes .box li{
+  margin: 10px 0;
+  list-style: none;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.content .link-boxes .box li a{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease
+}
+
+.content .link-boxes .box li a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+footer .bottom-details .bottom_text{
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.content-bawah .bottom_text a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+.content-bawah .bottom_text a{
+  margin-right: 10px;
+}
+
+
+ 
+
+   
